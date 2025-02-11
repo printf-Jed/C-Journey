@@ -1,0 +1,20 @@
+### C Concepts Used:
+1. **stdio.h** – Includes input/output functions like printf and scanf.
+2. **Functions** – convertTemperature() and printConversionTable() to improve modularity.
+3. **Conditional Statements (if-else)** – To determine the conversion type.
+4. **Loops (for loop)** – Used in tabular format to iterate over values.
+5. **Formatted Output (printf)** – Displays the table with proper alignment.
+
+### Temperature Conversion Formulae:
+1. **C to F:** F = (C × 9/5) + 32
+2. **C to K:** K = C + 273.15
+3. **F to C:** C = (F - 32) × 5/9
+4. **F to K:** K = (F - 32) × 5/9 + 273.15
+5. **K to C:** C = K - 273.15
+6. **K to F:** F = (K - 273.15) × 9/5 + 32
+
+### Possible Enhancements:
+1. Add a **menu system** for better user interaction.
+2. Implement a **command-line argument** version.
+3. Expand to support **Rankine and Réaumur scales**.
+4. Build a **GUI-based converter** in the future.
